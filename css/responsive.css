@@ -1,0 +1,126 @@
+/* Desktop 1440px - modern larger monitor ----------- */
+@media only screen and (min-width:1050px) and (max-width:1920px) {
+	
+}
+
+@media only screen and (max-width:1040px) {
+
+}
+
+@media only screen and (max-width:890px){
+
+	div.logo {
+		position: absolute;
+		top: 10;
+		left: 10;
+		z-index: 999999999;
+		padding: 10px;
+	}
+	
+	#top {
+		height: auto;
+	}
+	
+	#top .wrapper {
+		padding: 10px 0 20px;
+	}
+	#top {
+		border-radius: 0px;
+		position: relative;
+		width: 100%;
+	}
+	
+	#top a,
+	#top label {
+	  color: #ccc;
+	  text-decoration: none;
+	  font: 1.4em sans-serif;
+	  transition: color .3s ease-in-out;
+	}
+
+	#top label {
+		position: relative;
+		display: block;
+		width: 100%;
+		min-height: 3.5em;
+		padding: .45em;
+		font-size: 1.1em;
+		margin: 0;
+	}
+  	#top label:after {
+		position: absolute;
+		right: .8em;
+		top: 0;
+		content: "\2261";
+		font-size: 2.8em;
+	}
+
+	#top input[type=checkbox]:checked ~ label:after {
+    	color: #E57735;
+	}
+	#top input[type=checkbox]:checked ~ ul {
+    	display: block;
+	}
+	#top input[type=checkbox]:checked ~ ul > li {
+		width: 100%;
+		opacity: .8;
+	}
+	
+	#top-nav {
+		display: none;
+		height: 100%;
+	}
+	
+	#top-nav>li:hover>.sub-menu {
+		display: none;
+	}
+	
+	#top-nav>li>a {
+		text-align: center;
+	}
+
+	#top-nav li {
+		width: 100%;
+	}
+	
+	#top-nav>li:hover>ul {
+	display: none;
+	}
+	
+	#container.wrapper {
+	padding: 60px 20px;
+	}
+	
+}
+
+@media only screen and (max-width:440px){
+
+	.column>section {
+		float: none;
+		margin: 30px auto;
+	}
+	
+	#footer .wrapper {
+	padding: 40px 0 40px;
+	}
+	#footer section{
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	display: none;
+	}
+	
+	#footer section.copyright{
+	display: block;
+	width: 100%;
+	}
+
+}
+@media only screen and (max-width:340px){
+	
+}
+
+
+@media only screen and (max-width:220px){
+
+}

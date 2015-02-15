@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+
+body {
+	background: url(../images/hpbg.jpg) top center repeat-x #FFF;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #002a67;
+	
+}
+h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #002a67;
+}
+a{
+	text-decoration: none;
+}
+
+p{
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin: 10px 0px;
+	color: #002a67;
+}
+
+.logo-holder img{
+
+	width: 268px;
+	height: 167px;
+	padding-top: 22px;
+	padding-left: 54px;
+	
+	}
+
+#top{
+	font-family: 'Open Sans', sans-serif;
+	color: #002a67;
+	float: right;
+	padding-top: 50px;
+	padding-right:204px;
+	position: relative;
+	text-indent: 0!important;
+}
+
+#top .menu a{
+	color: #002a67;
+	padding: 15px;
+	border-bottom: 2px solid #ffffff;
+	position: relative;
+	display: block;
+}
+
+#top .menu > li:first-child {
+	background: none;
+}
+
+#top .menu > li {
+	font-size: 12px;
+	padding: 0 15px;
+	background: url(../images/navli.gif) left center no-repeat;
+	position: relative;
+}
+
+#top .menu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 1.0;
+}
+.menu li{
+	float:left;
+	list-style: none;
+}
+.submenu{
+	display: none;
+}
+.submenu li{
+	float: left;
+	list-style-type: none;
+}
+
+ul.menu > li:hover > ul {
+    display: block;
+    position: absolute;
+    width: 150px;
+    z-index: 999;
+}
+#top .menu li li{
+
+	background: url(../images/lilinav.png) right center repeat-y;
+	font: 12px Arial, Helvetica, sans-serif;
+	padding: 0 10px;
+	width: 128px;
+
+}
+#top .menu li li a{
+	color: #002a67;
+	text-transform: none;
+	background: url(../images/navlia.png) left center no-repeat;
+	border-bottom: 1px dashed #949494;
+	padding: 10px;
+}
+/****************************Menu*************************/
+.pic img{
+	float: left;
+	padding-left: 70px;
+	margin: 24px;
+}
+
+.content p{
+	margin-left: 150px;
+	margin-right: 60px;
+	text-indent: 10px;
+	}
+.content .signature{
+	float: right;
+	font-size: 24px;
+	margin-right: 60px;
+}
+.content .position {
+	margin-left:1098px
+}
+/****************Content: Welcome Message******************/
+.footer{
+	float: right;
+	margin-right: 60px;
+	margin-top: 90px;
+}
+.footer h3{
+	font-size: 14px;
+	margin: 15px;
+}
+/*********************Footer*****************************/
