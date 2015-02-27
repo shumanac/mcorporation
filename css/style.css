@@ -160,13 +160,117 @@ ul.submenu > li a:hover{
 }
 
 /*********** Jannat End *******/
-.footer{
+/**************************Recent Project**************************/
+
+div.caption {
+padding: 12px;
+margin: -73% 31% 0% -93%;
+width: 67%;
+}
+div.content a, div.navigation a {
+    text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: #002a67;
+	}
+div.content a, div.navigation a {
+text-decoration: none;
+color: #002a67;
+}
+div.ss-controls {
+display: none;
+}
+.nav-controls {
+	padding: 3% 0%;
+color: #002a67;
+    
+}
+.nav-controls .next{
+	margin: 8% -1057% 0 19%;
 	float: right;
-	margin-right: 60px;
+}
+
+@-moz-document url-prefix(){
+	.thumbs li img{
+		width: 87px;
+		height: 48px;
+
+}
+}
+
+/**************************End of Recent Project**************************/
+/****************************Mission Statement*********************/
+.mission_statement{
+	
+	width: 80%;
+	height: 100%;
+	margin-top:10%;
+	margin-left: 10%;
+	text-align: left;
+}
+.mission_statement h1{
+	font-weight: bold;
+	text-align: left;
+	line-height: 5;
+}
+
+/******************************End of Mission statement********************/
+
+/****************Press*********************/
+.press{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 3%;
+
+}
+
+.press h1{
+	line-height: 3;
+	float: left;
+
+}
+.press h3{
+	line-height: 2;
+	float: left;
+	font-size: 10pt;
+
+}
+.head {
+	float: left;
+	margin-left: 10%;
+	font-size: 25px;
+
+}
+
+/*******************End of press***************/
+
+/**************Team members**************/
+
+.team{
+	width: 60%;
+	height: 100%;
+}
+.team h1{
+	font-size: 25px;
+	float: left;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+/*********************************/
+
+.footer{
+	background-color: #002a67;
+	width: 100%;
+	height: auto;
+	float: right;
+	margin-right: 0px;
 	margin-top: 90px;
 }
 .footer h3{
 	font-size: 14px;
-	margin: 15px;
+	margin: 1% 2% 2% 81%;
+	color: #fff;
 }
 /*********************Footer*****************************/
